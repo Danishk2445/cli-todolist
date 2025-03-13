@@ -158,9 +158,9 @@ def main():
         choice = display_menu()
 
         priority_map = {
-            '1': 'high',
-            '2': 'medium',
-            '3': 'low'
+            1: 'high',
+            2: 'medium',
+            3: 'low'
         }
 
         if choice == '1':
